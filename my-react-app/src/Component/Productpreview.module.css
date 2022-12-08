@@ -1,0 +1,47 @@
+.previewContainer{
+    width: 50%;
+    position: relative;
+}
+.preview > img{
+    width:100%;
+    
+}   
+.featureData{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} 
+.featureData > p{
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+}
+.heartBeat{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 48px;
+    font-weight:600px;
+}
+.heartBeat > p{
+    margin-top: 16px;
+}
+.heartBeat> i{
+    color: red;
+    animation: beat 1s infinite;
+}
+
+@keyframes beat{
+0%{
+    transform: scale(1,1);
+}
+50%{
+    transform: scale(1.2,1.2);
+}
+100%{
+    transform: scale(1,1);
+}
+} 

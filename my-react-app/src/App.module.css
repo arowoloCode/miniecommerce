@@ -1,0 +1,13 @@
+body{
+    font-family: "Source Sans Pro",sans-serif;
+    height: 100vh;
+}
+.mainContainer{
+    display: flex;
+    position: relaive;
+    margin-top: 32px;
+    padding: 4% 12%;
+    box-sizing: border-box;
+    width: 100%;
+    align-items: center;
+    }
